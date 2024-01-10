@@ -1,20 +1,8 @@
 # A LinkStack Theme
-Find more themes: https://github.com/JulianPrieber/llc-themes
                                                                                                                                                                          
-*	Theme Name: ThemeName
+*	Theme Name: tarnisher
 *	Theme Version: 1.0
-*	Theme Date: YYYY-MM-DD
-*	Theme Author: YourGitHubName
-*	Theme Author URI: https://github.com/YourGitHubName
-*	Theme License: GPLv3
-*	Source code: https://github.com/YourGitHubName/ThemeName
+*	Theme Date: 2024-01-09
+*	Theme Author: ethan
 
-
-### Used assets:
-* Built using:
-* https://github.com/dhg/Skeleton
-* License: MIT
-
-*
-* ...
-*
+overrides the reddit icon to bandcamp - enter a bandcamp url in the reddit field in the admin panel
