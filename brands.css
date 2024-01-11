@@ -77,7 +77,7 @@
 
 .icon {
   padding: 0px 8px 3.5px 0px;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   width: 20px;
   height: 20px;
   -webkit-filter: grayscale(100%);

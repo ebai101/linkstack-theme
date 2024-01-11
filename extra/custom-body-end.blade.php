@@ -1,9 +1,2 @@
-<script>
-    // reddit -> bandcamp
-    let redditIcon = document.getElementsByClassName('fa-reddit')[0];
-    let redditButton = document.querySelector('[title="Reddit"]');
-    redditIcon.classList.remove('fa-reddit')
-    redditIcon.classList.add('fa-bandcamp')
-    redditButton.ariaLabel = 'Bandcamp';
-    redditButton.title = 'Bandcamp';
-</script>
+<link rel="stylesheet" href="themes/custom/extra/custom-assets/custom.css"></style>
+<script src="themes/custom/extra/custom-assets/custom.js"></script>
