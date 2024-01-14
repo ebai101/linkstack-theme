@@ -19,6 +19,7 @@ let videoLink = document.evaluate('//a[text()="!video-embed"]', document, null, 
 if (videoLink !== null) {
     let videoElement = videoLink.parentElement;
     let videoUrl = videoLink.href.match(/watch\?v=(.+)/)[1];
+    videoElement.style.paddingBottom = "40px";
     videoElement.innerHTML = '<div id="player-container"><iframe id="player" frameborder="0" ></iframe></div>'
     document.querySelector("#player").src = `https://www.youtube.com/embed/${videoUrl}`
 }
