@@ -5,4 +5,10 @@
 *	Theme Date: 2024-01-09
 *	Theme Author: ethan
 
-overrides the reddit icon to bandcamp - enter a bandcamp url in the reddit field in the admin panel
+add a link with the title "!video-embed" and a youtube URL to embed the video
+
+some social icons are overridden, for example add your bandcamp URL in Page Icons under Reddit and it will display as a Bandcamp icon
+
+icon overrides:
+- reddit > bandcamp
+- snapchat > spotify
