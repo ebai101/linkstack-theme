@@ -20,6 +20,8 @@ if (videoLink !== null) {
     let videoElement = videoLink.parentElement;
     let videoUrl = videoLink.href.match(/watch\?v=(.+)/)[1];
     videoElement.style.paddingBottom = "40px";
+    videoElement.style.marginLeft = "10px";
+    videoElement.style.marginRight = "10px";
     videoElement.innerHTML = '<div id="player-container"><iframe id="player" frameborder="0" ></iframe></div>'
     document.querySelector("#player").src = `https://www.youtube.com/embed/${videoUrl}`
 }
