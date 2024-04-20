@@ -1,4 +1,4 @@
-#player-container {
+#youtube-player-container {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -6,7 +6,7 @@
     margin-bottom: 1rem;
 }
 
-#player {
+#youtube-player {
     position: absolute;
     top: 0;
     left: 0;
